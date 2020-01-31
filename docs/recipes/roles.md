@@ -217,5 +217,5 @@ export const UserHasPermission = permission => UserAuthWrapper({
 The Higher Order Component above can then be applied like so:
 
 ```js
-export default UserHasPermission('todo')(SomeComponent)
+export default UserHasPermission('todos')(SomeComponent)
 ```
